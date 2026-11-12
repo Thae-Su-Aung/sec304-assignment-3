@@ -462,7 +462,7 @@ uv run --project client python client/client_attested.py --url "$SERVER_URL" \
 
 1. The first client verifies the server, then receives HTTP 503 because no model is loaded.
 2. The owner verifies the server and receives confirmation that its model was provisioned.
-3. The client verifies the server and receives `prediction_baht: 5750000`.
+3. The client verifies the server and receives `prediction_baht: 5550000`.
 
 Always pass `--url "$SERVER_URL"` for this cloud deployment. Without it, the wrapper defaults to `https://localhost:18043`, not the VM. Recheck the external IP after replacing a VM.
 
